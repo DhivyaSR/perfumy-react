@@ -1,0 +1,26 @@
+//Product Component
+import one from "../assets/images/one.jpg";
+import two from "../assets/images/two.jpg";
+import three from "../assets/images/three.jpg";
+
+function Product(){
+    return(
+      <section className="products">
+        <div className="box">
+          <img src={one} alt="ONE"></img>
+          <p>Fogg Wood Extreme, Eau De Parfum, Long-lasting Perfume, 100ml</p>
+        </div>
+        <div className="box">
+          <img src={two} alt="TWO"></img>
+          <p>Fogg Wood Extreme, Eau De Parfum, Long-lasting Perfume, 100ml</p>
+        </div>
+        <div className="box">
+          <img src={three} alt="THREE"></img>
+          <p>Designer Club-Be Spoke by Perfume Lounge Men's Perfume | Premium Long Lasting Perfume</p>
+        </div>
+      </section>
+    );
+}
+
+export default Product;
+
